@@ -1,6 +1,4 @@
 package thebooklender.ooad.database;
-
-import thebooklender.ooad.database.DatabaseConfiguration;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
