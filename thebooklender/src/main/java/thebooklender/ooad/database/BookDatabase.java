@@ -1,7 +1,5 @@
 package thebooklender.ooad.database;
 
-import thebooklender.ooad.database.DatabaseConfiguration;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
