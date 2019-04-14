@@ -24,7 +24,7 @@
 		
 		<plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
+            <artifactId>maven-deply-plugin</artifactId>
             <version>3.0.0-M3</version>
             <configuration>
                <systemPropertyVariables>
@@ -38,15 +38,7 @@
 
     <dependencyManagement>
 	    
-        <dependencies>
-		<dependency>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-deploy-plugin</artifactId>
-  <version>3.0.0-M1</version>
-  <type>maven-plugin</type>
-</dependency>
-		
-		
+        <dependencies>		
             <dependency>
                 <groupId>org.glassfish.jersey</groupId>
                 <artifactId>jersey-bom</artifactId>
