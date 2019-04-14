@@ -17,8 +17,8 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.5.1</version>
             <configuration>
-               <source>${jdk.level}</source>
-               <target>${jdk.level}</target>
+               <source>1.7</source>
+               <target>1.7</target>
             </configuration>
          </plugin>
 		
@@ -88,12 +88,7 @@
          <version>6.9.8</version>
          <scope>test</scope>
       </dependency>
-	    
     </dependencies>
-	 <properties>
-      <jre.level>1.7</jre.level>
-      <jdk.level>1.7</jdk.level>
-   </properties>
     <properties>
         <jersey.version>2.16</jersey.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
