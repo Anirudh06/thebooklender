@@ -22,6 +22,16 @@ import thebooklender.ooad.models.LoginModel;
 import thebooklender.ooad.models.SignUpModel;
 import thebooklender.ooad.models.BookInfo;
 
+public class DatabaseConfiguration {
+	public static String dataBaseUrl = "jdbc:mysql://localhost:3306/booklender?useSSL=false";
+	public static String userName = "anirudh";
+	public static String password = "Pr@shan1";
+	public DatabaseConfiguration() {
+		
+	}
+	
+}
+
 public class BookDatabase {
 	
 	
